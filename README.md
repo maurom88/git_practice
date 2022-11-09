@@ -94,14 +94,15 @@ At the end, you can decide to delete the new branch, but this will only remove i
 
 ## Section 4: Update your local main/master and keep working
 
-Now, we only need to update our local repository. In you command prompt, first switch back to the main repository.
+Now, we only need to update our local repository. In your command prompt, first switch back to the main repository with `git checkout main`:
 
 ![Checkout main](./img/016.png)
 
-Pull the most recent changes.
+Pull the most recent changes with `git pull`.
 This is particularly important when working with other people! If someone else makes changes and merge a branch to main, using `pull` is the only way to have the most updated files on your computer and not risk messing up somebody else's work.
 
 ![Git pull](./img/017.png)
 
-### Final comments and remarks
+## Final comments
+
 If you need to apply more changes, go back to Section 2: Apply changes locally and repeat the procedure until the end
