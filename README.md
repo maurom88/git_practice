@@ -45,20 +45,22 @@ In this section you will:
 1. Make some changes
 1. Commit the changes you made
 
-Whenever you need to make some changes on a repository, starting from Main/Master, you need to create a new branch (or move to a branch you are already using for making changes) with the command: `git branch <new_branch_name>`.
+Whenever you need to make some changes on a repository, starting from the `main` or `master` branch, you need to create a new branch with the command: `git branch <new_branch_name>`.
 Then, switch to the new branch you have just created `git checkout <branch_name>`.
 
 ![Create and switch branch](./img/007.png)
+
+As an alternative, you can also combine the two previous commands by using `git checkout -b <new_branch_name>` (this will both create the new branch and switch to it).
 
 Make some changes (for example, I have created a text file called "newFile" in my folder).
 
 ![newFile](./img/008.png)
 
-Now, you have to tell git that you want these changes to be saved, and you do so with two commands:
-1. `git add <file_name>`
-1. `git commit -m "Some message"`
+Now that the changes have been saved, you will need to commit them so that Git can register them in its version control system. This is done in two steps:
+1. `git add <file_name>` (add to staging environment).
+1. `git commit -m "Some message"` (commit the changes).
 
-In this case, I could have used `git add newFile.txt` but, for the sake of simplicity, I used `git add .` which means that I want to add all my changed files.
+When `add`ing, you should specify which file(s) to add to the staging environemnt. However, it is also possible to stage all changes at the same time with `git add .` like in the example below:
 
 ![Git add and commit](./img/009.png)
 
