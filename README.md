@@ -68,7 +68,6 @@ When `add`ing, you should specify which file(s) to add to the staging environemn
 
 In this section you will:
 1. Use `git push` to update a remote repository
-1.
 
 Now that everything is updated locally, we can use `git push` to update the repository on GitHub
 
