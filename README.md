@@ -28,16 +28,15 @@ In the repository you have just created, click the green button "Code" and copy 
 
 ![Clone url](./img/003.png)
 
-In your computer, open a command prompt and go to the folder where you want to save your local repository (Desktop in the example).
+On your computer, open a command prompt and navigate to the folder where you want to save your local repository (using the `cd` command).
 Use `git clone` followed by the url you copied before, to clone the remote repository on your computer.
 
 ![Git clone](./img/004.png)
 
 At this point, you will have a folder with the same name as your repository.
-Use `cd <folder_name>` to get inside your folder.
+Use `cd <folder_name>` to get inside your folder. For example: `cd myRepository`.
 
 ![cd folder](./img/006.png)
-
 
 ## Section 2: Apply changes locally
 
