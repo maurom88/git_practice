@@ -1,5 +1,11 @@
-# Git101
-The most simple guide for getting started with Git and GitHub
+# Git and GitHub practice
+This repository contains a series of steps that will teach you a simple workflow for using Git and GitHub.
+
+## Index
+1. [Section 1: Create and clone a repository](#section-1-create-and-clone-a-repository)
+1. [Section 2: Apply changes locally](#section-2-apply-changes-locally)
+1. [Section 3: Push updated repository to GitHub, merge to main/master](#section-3-push-updated-repository-to-github-merge-to-mainmaster)
+1. [Section 4: Update your local main/master and keep working](#section-4-update-your-local-mainmaster-and-keep-working)
 
 ## Section 1: Create and clone a repository
 
@@ -61,7 +67,7 @@ In this case, I could have used `git add newFile.txt` but, for the sake of simpl
 
 In this section you will:
 1. Use `git push` to update a remote repository
-1. 
+1.
 
 Now that everything is updated locally, we can use `git push` to update the repository on GitHub
 
@@ -85,7 +91,6 @@ In the following steps, just clicking the green buttons in sequence will allow y
 At the end, you can decide to delete the new branch, but this will only remove it from GitHub! The local branch, on your computer, will remain intact.
 
 ![Merge complete](./img/015.png)
-
 
 ## Section 4: Update your local main/master and keep working
 
